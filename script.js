@@ -1,7 +1,7 @@
 
 
 
-fetch('https://capsule-flame.vercel.app/year')
+fetch('https://whatyearisitbackend-navy.vercel.app/year')
 .then(response => response.json())
 .then(data => {
     console.log(data.year)
